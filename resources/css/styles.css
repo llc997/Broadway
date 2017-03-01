@@ -1,15 +1,13 @@
 * {
   font-family: Helvetica;
   text-align: center;
-  background-color: lightgray;
-  background-image: url("the-flatiron-building.jpg");
   }
+body {
+  background-image: url(../images/the-flatiron-building.jpg);
+      }
 .white {
   color: white;
   }
-.ourPrice {
-  background-color: white;
-}
 h1 {
   font-size: 70px;
   font-weight: bold;
@@ -23,6 +21,19 @@ h3 {
   font-size: 23px;
   font-weight: bold;
     }
-p {
+.ourProcess p {
   font-size: 14px;
   }
+.ourProcess {
+  background-color: white;
+}
+.bottom {
+  background-color: white;
+}
+.footer {
+  text-align: left;
+}
+nav p a {
+  font-size: 18px;
+  color: white;
+}
