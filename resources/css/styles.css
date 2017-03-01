@@ -1,11 +1,13 @@
 * {
   font-family: Helvetica;
   text-align: center;
-  background: url("the-flatiron-building.jpg");
   }
 .white {
   color: white;
   }
+body {
+    background-image: url(the-flatiron-building.jpg);
+      }
 h1 {
   font-size: 70px;
   font-weight: bold;
